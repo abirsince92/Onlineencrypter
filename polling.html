@@ -1,0 +1,66 @@
+<html><center><h1 style='color:red'><b>Polling application</b></h1></center>
+<body class='b'><center>
+<fieldset class='pk'>
+<form action='' name='myform'>
+ <label class='l1'>Amazon</label>&nbsp;<input class='r1' type='radio' value='amazon' name='radio'><br>
+ <label class='l1'>Flipkart</label>&nbsp;<input class='r1' type='radio' value='flipkart' name='radio'><br>
+ <label class='l1'>Snapdeal</label>&nbsp;<input class='r1' type='radio' value='snapdeal' name='radio'><br>
+  <label class='l1'>Myntra</label>&nbsp;<input class='r1' type='radio' value='myntra' name='radio'><br>
+   <label class='l1'>Supercombos</label>&nbsp;<input class='r1' type='radio' value='supercombos' name='radio'><br>
+    <label class='l1'>ebay</label>&nbsp;<input class='r1' type='radio' value='ebay' name='radio'><br><br>
+	<input class='b1' type="submit" name="sub" value="Market Share">&nbsp; &nbsp;<button class="b2" type='submit' onclick="resetform()" name='su1'>Reset</button>
+</form>
+</fieldset>
+
+
+
+
+</center>
+<style>
+.b1{
+
+background-color: #008CBA;
+text-color:
+font-size: 16px;border: none;
+    color: white;
+	   padding: 15px 32px;
+}
+.b2{
+
+background-color: #008CBA;
+text-color:
+font-size: 16px;border: none;
+    color: white;
+	   padding: 15px 32px;
+}
+.l1{
+
+color:#132E25  ;
+font-size:20px;
+	display:inline-block;
+	margin-top:20px;
+}
+.b{
+	
+margin:0;padding:0;
+}
+.pk{
+	
+	margin-left:80px;
+	margin-right:80px;
+	margin-top:20px;
+	width:600;
+	height:320;
+	background-color:#D7DBDD  
+ ;
+}
+
+
+</style>
+<script>
+function resetform(){
+document.getElementByName("myform").reset();
+}
+</script>
+
+</html>
